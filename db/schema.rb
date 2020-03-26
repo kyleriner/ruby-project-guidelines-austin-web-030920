@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 6) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
-    t.string "level"
+    t.integer "level"
   end
 
   create_table "klass_spells", force: :cascade do |t|
